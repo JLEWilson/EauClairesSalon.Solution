@@ -8,7 +8,7 @@
 <br>
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
 
-if(@Model.Clients.Count == 0)
+@if(@Model.Clients.Count == 0)
 {
   <p>This stylist currently has no clients.</p>
 }

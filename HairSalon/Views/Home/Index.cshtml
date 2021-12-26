@@ -3,8 +3,8 @@
 }
 @model List<HairSalon.Models.Client>
 <h1>Welcome to your Stylist/Client manager!</h1>
-<p>@Html.ActionLink("See all stylists", "Index", "Stylists")</p>
-@if(@Model.Count < 0)
+<p>@Html.ActionLink("See all Stylists", "Index", "Stylists")</p>
+@if(@Model.Count > 0)
 {
-  <p>@Html.ActionLink("See all Clients", "Index", "Stylists")</p>
+  <p>@Html.ActionLink("See all Clients", "Index", "Clients")</p>
 }

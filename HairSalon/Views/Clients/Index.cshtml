@@ -13,7 +13,7 @@
 
 @foreach (Client client in Model)
 {
-  <li>client.Name</li>
+  <li>Client: @client.Name | Stylist : @client.Stylist.Name</li>
 }
 <p>@Html.ActionLink("Add a Client", "Create", "Clients")</p>
 <p>@Html.ActionLink("Return to Homepage", "Index", "Home")</p>

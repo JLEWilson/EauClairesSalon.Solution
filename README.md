@@ -25,7 +25,7 @@ _An application designed using MVC layout for keeping track of stylist/client re
 ## Setup/Installation Requirements
 * _Requires VSCode and MySql_
 
-* _You can find the github repository [here]()_
+* _You can find the github repository [here](https://github.com/JLEWilson/EauClairesSalon.Solution)_
 * _Click the code button, and copy the https link_
 * _In your in git bash or your preferred git terminal navigate to the directory you would like to store the project_
 * _Enter: "git clone" followed by the https link_

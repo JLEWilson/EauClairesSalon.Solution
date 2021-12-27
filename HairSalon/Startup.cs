@@ -31,7 +31,6 @@ namespace HairSalon
     public void Configure(IApplicationBuilder app)
     {
       app.UseDeveloperExceptionPage();
-      app.UseStaticFiles();
       
       app.UseRouting();
       app.UseEndpoints(routes => 
